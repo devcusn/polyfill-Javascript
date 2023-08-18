@@ -8,10 +8,10 @@ function forEach(callback, thisArg) {
   }
 }
 
-if (!Array.prototype.my) {
-  Array.prototype.my = forEach;
+if (!Array.prototype.forEach) {
+  Array.prototype.forEach = forEach;
 }
-
-[1, 2, 3].my((a, index, arr) => {
+//example
+[1, 2, 3].forEach((a, index, arr) => {
   console.log(a, index, arr);
 });
