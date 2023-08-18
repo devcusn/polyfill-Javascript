@@ -1,0 +1,8 @@
+{
+  "name": "polyfill-javascirpt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/devcusn/polyfill-javascirpt.git",
+  "author": "Halil Tunc <hitunc@outlook.com>",
+  "license": "MIT"
+}
